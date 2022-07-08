@@ -1,6 +1,6 @@
 {
   "name": "react-native-view-pdf",
-  "version": "0.13.2",
+  "version": "0.13.3",
   "description": "React native Pdf viewer implementation",
   "main": "lib/index.js",
   "scripts": {
@@ -17,19 +17,19 @@
   "author": "Maksym Rusynyk <m.rusynyk@gmail.com>, Sander Frenken <sander.frenken@hotmail.com>",
   "license": "MIT",
   "peerDependencies": {
+    "prop-types": ">=15.7.2",
     "react": ">=16.8.6",
-    "react-native": ">=0.60",
-    "prop-types": ">=15.7.2"
+    "react-native": ">=0.60"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
+    "@babel/preset-flow": "^7.0.0",
     "@babel/runtime": "^7.8.4",
     "@react-native-community/eslint-config": "^1.1.0",
-    "@babel/preset-flow": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^25.1.0",
     "codecov": "^3.0.0",
-    "eslint": "^6.5.1",
+    "eslint": "6.8.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-flowtype": "^3.2.1",
     "eslint-plugin-import": "^2.14.0",
@@ -57,7 +57,9 @@
     "ReactNativeViewPDF/*.h",
     "ReactNativeViewPDF/*.m"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "deprecated-react-native-prop-types": "^2.3.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/rumax/react-native-PDFView.git"
